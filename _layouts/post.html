@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% if page.author %}• {{ page.author }}{% endif %}
+      {% if page.tags %}• {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="post-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="newsletter-box">
+      <h3>Get More Briefings Like This</h3>
+      <p>Join our weekly newsletter for the latest points hacks and deals.</p>
+      <a href="{{ site.newsletter.signup_url }}" class="btn btn-primary">Subscribe</a>
+    </div>
+
+    <div class="post-share">
+      <h4>Share this briefing</h4>
+      <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</article>

@@ -1,0 +1,63 @@
+title: RewardsBrief
+description: "Your weekly briefing on travel rewards, points hacks, and luxury for less."
+baseurl: ""
+url: "https://rewardsbrief.com"
+author: RewardsBrief Team
+email: rewardsbrief@proton.me
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "RewardsBrief"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# SEO
+lang: en
+logo: /assets/images/logo.png
+social:
+  name: RewardsBrief
+  links:
+    - https://tiktok.com/@rewardsbrief
+    - https://instagram.com/rewardsbrief
+    - https://youtube.com/@rewardsbrief
+
+# Newsletter
+newsletter:
+  provider: beehiiv
+  signup_url: "#" # Update with Beehiiv link
+
+# Analytics (add later)
+# google_analytics: G-XXXXXXXXXX
