@@ -56,8 +56,8 @@ social:
 
 # Newsletter
 newsletter:
-  provider: beehiiv
-  signup_url: "#" # Update with Beehiiv link
+  provider: kit
+  signup_url: "#" # Update with Kit signup link
 
 # Analytics (add later)
 # google_analytics: G-XXXXXXXXXX
