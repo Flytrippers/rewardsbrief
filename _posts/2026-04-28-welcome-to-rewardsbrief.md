@@ -2,7 +2,6 @@
 layout: post
 title: "Welcome to RewardsBrief"
 date: 2026-04-28
-region: both
 currency: usd
 tags: [beginners, welcome]
 excerpt: "Your weekly briefing on travel rewards starts here. Learn how to fly more, spend less, and maximize every point."

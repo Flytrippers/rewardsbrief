@@ -1,6 +1,7 @@
 /**
  * RewardsBrief Currency Switcher
- * Handles region/currency preference with localStorage persistence
+ * Simple USD/CAD toggle with localStorage persistence
+ * Default is always USD
  */
 
 (function() {
@@ -9,32 +10,12 @@
   const STORAGE_KEY = 'rewardsbrief_currency';
   const DEFAULT_CURRENCY = 'usd';
 
-  // Exchange rate (approximate, update as needed)
-  const RATES = {
-    usd: 1,
-    cad: 1.35
-  };
-
   /**
-   * Detect currency from browser locale
-   */
-  function detectCurrency() {
-    const locale = navigator.language || navigator.userLanguage || 'en-US';
-    if (locale.includes('CA') || locale.includes('ca')) {
-      return 'cad';
-    }
-    return 'usd';
-  }
-
-  /**
-   * Get stored or detected currency preference
+   * Get stored currency preference (defaults to USD)
    */
   function getCurrency() {
     const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored && (stored === 'usd' || stored === 'cad')) {
-      return stored;
-    }
-    return detectCurrency();
+    return (stored === 'usd' || stored === 'cad') ? stored : DEFAULT_CURRENCY;
   }
 
   /**
@@ -43,7 +24,7 @@
   function setCurrency(currency) {
     localStorage.setItem(STORAGE_KEY, currency);
     updateUI(currency);
-    updatePrices(currency);
+    // Phase 2: Add price swapping here when ready
   }
 
   /**
@@ -51,30 +32,9 @@
    */
   function updateUI(currency) {
     const select = document.getElementById('currency-select');
-    const activeLabel = document.getElementById('active-currency');
-
     if (select) {
       select.value = currency;
     }
-
-    if (activeLabel) {
-      activeLabel.textContent = currency.toUpperCase();
-    }
-  }
-
-  /**
-   * Update prices in content (Phase 2: full implementation)
-   * For now, marks the container with active currency class
-   */
-  function updatePrices(currency) {
-    const content = document.querySelector('.post-content');
-    if (content) {
-      content.setAttribute('data-currency', currency);
-    }
-
-    // Phase 2: Add price swapping logic here
-    // Look for elements with data-usd or data-cad attributes
-    // and swap their displayed values
   }
 
   /**
@@ -86,7 +46,6 @@
 
     const currency = getCurrency();
     updateUI(currency);
-    updatePrices(currency);
 
     select.addEventListener('change', function(e) {
       setCurrency(e.target.value);

@@ -30,7 +30,6 @@ defaults:
     values:
       layout: "post"
       author: "RewardsBrief"
-      region: "both"
       currency: "usd"
   - scope:
       path: ""

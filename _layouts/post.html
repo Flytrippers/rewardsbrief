@@ -4,13 +4,10 @@ layout: default
 
 <article class="post">
   <header class="post-header">
-    {% if page.region and page.region != "both" %}
-    <div class="region-badge region-{{ page.region }}">
-      {% if page.region == "us" %}🇺🇸 US Only{% endif %}
-      {% if page.region == "ca" %}🇨🇦 Canada Only{% endif %}
-    </div>
-    {% elsif page.region == "both" %}
-    <div class="region-badge region-both">🌎 US & Canada</div>
+    {% if page.region == "us" %}
+    <div class="region-badge region-us">🇺🇸 US Only</div>
+    {% elsif page.region == "ca" %}
+    <div class="region-badge region-ca">🇨🇦 Canada Only</div>
     {% endif %}
 
     <h1>{{ page.title }}</h1>
@@ -30,10 +27,9 @@ layout: default
   <div class="currency-switcher">
     <label>Currency:</label>
     <select id="currency-select">
-      <option value="usd" {% if page.currency == "usd" %}selected{% endif %}>🇺🇸 USD ($)</option>
-      <option value="cad" {% if page.currency == "cad" %}selected{% endif %}>🇨🇦 CAD ($)</option>
+      <option value="usd" selected>🇺🇸 USD ($)</option>
+      <option value="cad">🇨🇦 CAD ($)</option>
     </select>
-    <span class="currency-note">Prices shown in <span id="active-currency">USD</span></span>
   </div>
 
   <div class="post-content" data-currency="{{ page.currency | default: 'usd' }}">

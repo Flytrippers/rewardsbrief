@@ -250,12 +250,6 @@ a {
   border: 1px solid #f9a8d4;
 }
 
-.region-both {
-  background: #ecfdf5;
-  color: #065f46;
-  border: 1px solid #6ee7b7;
-}
-
 /* Currency Switcher */
 .currency-switcher {
   display: flex;
