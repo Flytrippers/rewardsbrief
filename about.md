@@ -29,7 +29,7 @@ RewardsBrief is powered by AI and human editors who obsess over points so you do
 ### Connect With Us
 
 - TikTok: [@rewardsbrief](https://tiktok.com/@rewardsbrief)
-- Instagram: [@rewardsbrief](https://instagram.com/@rewardsbrief)
+- Instagram: [@rewardsbrief_](https://instagram.com/@rewardsbrief_)
 - YouTube: [@rewardsbrief](https://youtube.com/@rewardsbrief)
 - Email: [rewardsbrief@proton.me](mailto:rewardsbrief@proton.me)
 
