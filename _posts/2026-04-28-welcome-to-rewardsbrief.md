@@ -18,6 +18,8 @@ Every week, we cut through the noise and deliver only what matters: the best cre
 - **Hotel Rewards** — Free nights, status matches, and how to sleep in luxury for less
 - **Real Travel Hacks** — Not theory. Real bookings, real savings, real trips.
 
+For example, we'll show you how a card with a <span class="price-convert" data-usd="95">USD $95</span> annual fee can unlock thousands in travel value.
+
 ## Who This Is For
 
 - You want to travel more but think it's too expensive

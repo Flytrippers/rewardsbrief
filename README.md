@@ -34,7 +34,22 @@ Jekyll-powered site for RewardsBrief — a travel rewards content brand.
    ---
    ```
 3. Write content in Markdown
-4. Commit and push — site auto-deploys
+4. **For prices:** Use the price converter span:
+   ```markdown
+   The annual fee is <span class="price-convert" data-usd="95">USD $95</span>.
+   ```
+   - Always write the USD amount in `data-usd`
+   - The displayed text auto-converts to CAD for Canadian visitors
+   - Exchange rate fetched live, cached for 24 hours
+5. Commit and push — site auto-deploys
+
+## Currency Conversion
+
+- **Default:** USD for all visitors
+- **Canadians:** Auto-detected via browser locale, shown CAD
+- **Toggle:** Click "🇺🇸 USD" bar to switch currencies
+- **Live rates:** Fetched from Frankfurter API, cached daily
+- **Fallback:** 1.35 if API is unavailable
 
 ## Local Development
 
