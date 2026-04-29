@@ -104,9 +104,8 @@
   /**
    * Format currency display
    */
-  function formatPrice(amount, currency) {
-    const symbol = currency === 'cad' ? 'CAD $' : 'USD $';
-    return symbol + parseFloat(amount).toLocaleString('en-US', {
+  function formatPrice(amount) {
+    return '$' + parseFloat(amount).toLocaleString('en-US', {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0
     });
@@ -131,9 +130,9 @@
 
       if (currency === 'cad') {
         const cadAmount = Math.round(usdAmount * rate);
-        el.textContent = formatPrice(cadAmount, 'cad');
+        el.textContent = formatPrice(cadAmount);
       } else {
-        el.textContent = formatPrice(usdAmount, 'usd');
+        el.textContent = formatPrice(usdAmount);
       }
     });
   }
