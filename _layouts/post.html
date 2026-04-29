@@ -4,6 +4,15 @@ layout: default
 
 <article class="post">
   <header class="post-header">
+    {% if page.region and page.region != "both" %}
+    <div class="region-badge region-{{ page.region }}">
+      {% if page.region == "us" %}🇺🇸 US Only{% endif %}
+      {% if page.region == "ca" %}🇨🇦 Canada Only{% endif %}
+    </div>
+    {% elsif page.region == "both" %}
+    <div class="region-badge region-both">🌎 US & Canada</div>
+    {% endif %}
+
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -18,7 +27,16 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="post-content">
+  <div class="currency-switcher">
+    <label>Currency:</label>
+    <select id="currency-select">
+      <option value="usd" {% if page.currency == "usd" %}selected{% endif %}>🇺🇸 USD ($)</option>
+      <option value="cad" {% if page.currency == "cad" %}selected{% endif %}>🇨🇦 CAD ($)</option>
+    </select>
+    <span class="currency-note">Prices shown in <span id="active-currency">USD</span></span>
+  </div>
+
+  <div class="post-content" data-currency="{{ page.currency | default: 'usd' }}">
     {{ content }}
   </div>
 
@@ -37,3 +55,5 @@ layout: default
     </div>
   </footer>
 </article>
+
+<script src="{{ '/assets/js/currency.js' | relative_url }}"></script>

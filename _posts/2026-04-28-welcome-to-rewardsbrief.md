@@ -2,6 +2,8 @@
 layout: post
 title: "Welcome to RewardsBrief"
 date: 2026-04-28
+region: both
+currency: usd
 tags: [beginners, welcome]
 excerpt: "Your weekly briefing on travel rewards starts here. Learn how to fly more, spend less, and maximize every point."
 ---
@@ -35,7 +37,7 @@ We don't do filler. Every briefing is:
 ## Get Started
 
 1. [Subscribe to our newsletter](#) for weekly briefings
-2. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief)
+2. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_)
 3. Bookmark this page — we publish new briefings every week
 
 Let's get you flying better.

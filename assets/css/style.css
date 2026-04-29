@@ -228,6 +228,72 @@ a {
   font-size: 0.75rem;
 }
 
+/* Region Badges */
+.region-badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.region-us {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
+}
+
+.region-ca {
+  background: #fce7f3;
+  color: #9d174d;
+  border: 1px solid #f9a8d4;
+}
+
+.region-both {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #6ee7b7;
+}
+
+/* Currency Switcher */
+.currency-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-alt);
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.currency-switcher label {
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+.currency-switcher select {
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.currency-note {
+  color: var(--text-light);
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+/* Price tags for currency switching */
+.price-tag {
+  font-weight: 600;
+  color: var(--primary);
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   .site-header .container {
