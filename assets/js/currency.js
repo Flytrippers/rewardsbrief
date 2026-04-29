@@ -1,8 +1,7 @@
 /**
- * RewardsBrief Currency Switcher
- * Auto-detects Canadian visitors, shows CAD by default for them
- * USD default for everyone else
- * Shows flag badge based on active currency
+ * RewardsBrief Currency Toggle
+ * Simple click-to-toggle between USD and CAD
+ * Auto-detects Canadian visitors, defaults USD for everyone else
  */
 
 (function() {
@@ -10,6 +9,16 @@
 
   const STORAGE_KEY = 'rewardsbrief_currency';
   const DEFAULT_CURRENCY = 'usd';
+
+  const FLAGS = {
+    usd: '🇺🇸',
+    cad: '🇨🇦'
+  };
+
+  const LABELS = {
+    usd: 'USD',
+    cad: 'CAD'
+  };
 
   /**
    * Detect if visitor is Canadian from browser locale
@@ -21,14 +30,12 @@
 
   /**
    * Get stored or detected currency preference
-   * Canadians see CAD by default, everyone else sees USD
    */
   function getCurrency() {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored && (stored === 'usd' || stored === 'cad')) {
       return stored;
     }
-    // First visit: detect locale
     return isCanadian() ? 'cad' : DEFAULT_CURRENCY;
   }
 
@@ -38,24 +45,39 @@
   function setCurrency(currency) {
     localStorage.setItem(STORAGE_KEY, currency);
     updateUI(currency);
-    // Phase 2: Add price swapping here when ready
   }
 
   /**
-   * Update the UI elements
+   * Update the toggle display
    */
   function updateUI(currency) {
-    const select = document.getElementById('currency-select');
-    const generalBadge = document.getElementById('region-badge-general');
+    const flagEl = document.getElementById('currency-flag');
+    const labelEl = document.getElementById('currency-label');
 
-    if (select) {
-      select.value = currency;
+    if (flagEl) flagEl.textContent = FLAGS[currency];
+    if (labelEl) labelEl.textContent = LABELS[currency];
+
+    // Phase 2: Add price swapping here
+  }
+
+  /**
+   * Toggle dropdown visibility
+   */
+  function toggleDropdown() {
+    const dropdown = document.getElementById('currency-dropdown');
+    if (dropdown) {
+      dropdown.classList.toggle('active');
     }
+  }
 
-    // Update general content flag badge
-    if (generalBadge) {
-      generalBadge.textContent = currency === 'cad' ? '🇨🇦' : '🇺🇸';
-      generalBadge.className = 'region-badge region-' + currency;
+  /**
+   * Close dropdown when clicking outside
+   */
+  function closeDropdown(e) {
+    const toggle = document.getElementById('currency-toggle');
+    const dropdown = document.getElementById('currency-dropdown');
+    if (dropdown && toggle && !toggle.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove('active');
     }
   }
 
@@ -63,14 +85,26 @@
    * Initialize on page load
    */
   function init() {
-    const select = document.getElementById('currency-select');
-    if (!select) return;
+    const toggle = document.getElementById('currency-toggle');
+    const dropdown = document.getElementById('currency-dropdown');
+    if (!toggle || !dropdown) return;
 
     const currency = getCurrency();
     updateUI(currency);
 
-    select.addEventListener('change', function(e) {
-      setCurrency(e.target.value);
+    // Click toggle to open/close dropdown
+    toggle.addEventListener('click', toggleDropdown);
+
+    // Click outside to close
+    document.addEventListener('click', closeDropdown);
+
+    // Click option to select
+    dropdown.querySelectorAll('.currency-option').forEach(function(option) {
+      option.addEventListener('click', function() {
+        const value = this.getAttribute('data-value');
+        setCurrency(value);
+        dropdown.classList.remove('active');
+      });
     });
   }
 

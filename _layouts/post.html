@@ -4,14 +4,6 @@ layout: default
 
 <article class="post">
   <header class="post-header">
-    {% if page.region == "us" %}
-    <div class="region-badge region-us">🇺🇸 US Only</div>
-    {% elsif page.region == "ca" %}
-    <div class="region-badge region-ca">🇨🇦 Canada Only</div>
-    {% else %}
-    <div class="region-badge" id="region-badge-general">🇺🇸</div>
-    {% endif %}
-
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
@@ -26,15 +18,23 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="currency-switcher">
-    <label>Currency:</label>
-    <select id="currency-select">
-      <option value="usd">🇺🇸 USD ($)</option>
-      <option value="cad">🇨🇦 CAD ($)</option>
-    </select>
+  <div class="currency-bar">
+    <div class="currency-toggle" id="currency-toggle">
+      <span id="currency-flag">🇺🇸</span>
+      <span id="currency-label">USD</span>
+      <span class="currency-arrow">▼</span>
+    </div>
+    <div class="currency-dropdown" id="currency-dropdown">
+      <div class="currency-option" data-value="usd">
+        <span>🇺🇸</span> USD
+      </div>
+      <div class="currency-option" data-value="cad">
+        <span>🇨🇦</span> CAD
+      </div>
+    </div>
   </div>
 
-  <div class="post-content" data-currency="{{ page.currency | default: 'usd' }}">
+  <div class="post-content" id="post-content" data-currency="{{ page.currency | default: 'usd' }}">
     {{ content }}
   </div>
 
