@@ -1,7 +1,8 @@
 /**
  * RewardsBrief Currency Switcher
- * Simple USD/CAD toggle with localStorage persistence
- * Default is always USD
+ * Auto-detects Canadian visitors, shows CAD by default for them
+ * USD default for everyone else
+ * Shows flag badge based on active currency
  */
 
 (function() {
@@ -11,11 +12,24 @@
   const DEFAULT_CURRENCY = 'usd';
 
   /**
-   * Get stored currency preference (defaults to USD)
+   * Detect if visitor is Canadian from browser locale
+   */
+  function isCanadian() {
+    const locale = navigator.language || navigator.userLanguage || 'en-US';
+    return locale.includes('CA') || locale.includes('ca');
+  }
+
+  /**
+   * Get stored or detected currency preference
+   * Canadians see CAD by default, everyone else sees USD
    */
   function getCurrency() {
     const stored = localStorage.getItem(STORAGE_KEY);
-    return (stored === 'usd' || stored === 'cad') ? stored : DEFAULT_CURRENCY;
+    if (stored && (stored === 'usd' || stored === 'cad')) {
+      return stored;
+    }
+    // First visit: detect locale
+    return isCanadian() ? 'cad' : DEFAULT_CURRENCY;
   }
 
   /**
@@ -32,8 +46,16 @@
    */
   function updateUI(currency) {
     const select = document.getElementById('currency-select');
+    const generalBadge = document.getElementById('region-badge-general');
+
     if (select) {
       select.value = currency;
+    }
+
+    // Update general content flag badge
+    if (generalBadge) {
+      generalBadge.textContent = currency === 'cad' ? '🇨🇦' : '🇺🇸';
+      generalBadge.className = 'region-badge region-' + currency;
     }
   }
 

@@ -250,6 +250,14 @@ a {
   border: 1px solid #f9a8d4;
 }
 
+.region-badge:not(.region-us):not(.region-ca) {
+  background: var(--bg-alt);
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
 /* Currency Switcher */
 .currency-switcher {
   display: flex;
