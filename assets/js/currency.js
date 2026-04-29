@@ -22,8 +22,8 @@
   };
 
   const LABELS = {
-    usd: 'USD',
-    cad: 'CAD'
+    usd: '$US',
+    cad: '$C'
   };
 
   /**
