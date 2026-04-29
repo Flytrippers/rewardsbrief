@@ -5,10 +5,10 @@ layout: default
 <article class="post">
   <header class="post-header">
     <h1>{{ page.title }}</h1>
-    <div class="post-meta">
+    <div class="post-meta-full">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      {% if page.author %}• {{ page.author }}{% endif %}
-      {% if page.tags %}• {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
+      <span>• Robo-7</span>
+      {% if page.tags %}{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
     </div>
   </header>
 
@@ -34,15 +34,25 @@ layout: default
     </div>
   </div>
 
+  <!-- Disclosure: shown at top for US -->
+  <div class="disclosure-module disclosure-top" id="disclosure-top">
+    Some links may earn RewardsBrief a commission. The math stays the math.
+  </div>
+
   <div class="post-content" id="post-content" data-currency="{{ page.currency | default: 'usd' }}">
     {{ content }}
   </div>
 
+  <!-- Disclosure: shown at bottom for CA -->
+  <div class="disclosure-module disclosure-bottom" id="disclosure-bottom" style="display: none;">
+    Some links may earn RewardsBrief a commission. The math stays the math.
+  </div>
+
   <footer class="post-footer">
     <div class="newsletter-box">
-      <h3>Get More Briefings Like This</h3>
+      <h3>Get more briefings like this</h3>
       <p>Join our weekly newsletter for the latest points hacks and deals.</p>
-      <a href="{{ site.newsletter.signup_url }}" class="btn btn-primary">Subscribe</a>
+      <a href="{{ site.newsletter.signup_url }}" class="btn btn-primary">subscribe →</a>
     </div>
 
     <div class="post-share">
@@ -55,3 +65,19 @@ layout: default
 </article>
 
 <script src="{{ '/assets/js/currency.js' | relative_url }}"></script>
+<script>
+  // Disclosure placement based on currency
+  (function() {
+    const currency = localStorage.getItem('rewardsbrief_currency') || 'usd';
+    const topDisc = document.getElementById('disclosure-top');
+    const bottomDisc = document.getElementById('disclosure-bottom');
+    
+    if (currency === 'cad') {
+      if (topDisc) topDisc.style.display = 'none';
+      if (bottomDisc) bottomDisc.style.display = 'block';
+    } else {
+      if (topDisc) topDisc.style.display = 'block';
+      if (bottomDisc) bottomDisc.style.display = 'none';
+    }
+  })();
+</script>

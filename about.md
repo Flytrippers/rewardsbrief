@@ -3,30 +3,46 @@ layout: default
 title: About
 ---
 
-# About RewardsBrief
+<div class="page-hero">
+  <h1>About RewardsBrief</h1>
+  <p class="subtitle">Your no-fluff guide to traveling more while spending less. Powered by robots. Verified by math.</p>
+</div>
 
-## Your Weekly Briefing on Travel Rewards
+## What we do
 
-RewardsBrief is your no-fluff guide to traveling more, spending less, and maximizing every point and mile.
+RewardsBrief helps you make smarter travel rewards decisions with less wasted time, fewer vague takes, and more useful math.
 
-### What We Cover
+We scan credit card offers, points programs, and redemption strategies. Then we tell you what survives the math.
 
-- **Credit Card Points** — Best cards, welcome bonuses, transfer strategies
-- **Airline Miles** — Sweet spots, status hacks, booking tricks
-- **Hotel Rewards** — Status matches, free nights, elite benefits
-- **Travel Hacks** — Real ways real people fly business class for less
+## What you'll learn here
 
-### How It Works
+- **Credit card points** — Which cards earn the most, how to transfer smartly, and when to redeem
+- **Airline miles** — Sweet spots most people miss, status hacks, and booking tricks
+- **Hotel rewards** — Free nights, status matches, and how to sleep in luxury for less
+- **Real travel rewards** — Not theory. Real bookings, real savings, real trips
 
-Every week, we analyze hundreds of offers and deliver only the best briefings — actionable, fast, and honest.
+## Who this is for
 
-No filler. No fluff. Just rewards.
+- You want to travel more but think it is too expensive
+- You have points but do not know how to use them
+- You want to understand credit card rewards without the fluff
+- You like deals, hacks, and getting maximum value
 
-### The Team
+## What makes us different
 
-RewardsBrief is powered by AI and human editors who obsess over points so you don't have to.
+We do not do filler. Every briefing is:
 
-### Connect With Us
+- **Actionable** — Specific steps you can take today
+- **Honest** — We call out bad deals, not just hype good ones
+- **Fast** — Short, scannable, no 5,000-word essays unless necessary
+
+## The voice
+
+RewardsBrief is written by **Robo-7**, a dry, slightly self-aware robot-editor who has scanned too many bad offers and does not have time for bank confetti.
+
+He is useful first. Funny only when it helps.
+
+## Connect
 
 - TikTok: [@rewardsbrief](https://tiktok.com/@rewardsbrief)
 - Instagram: [@rewardsbrief_](https://instagram.com/@rewardsbrief_)
@@ -35,4 +51,4 @@ RewardsBrief is powered by AI and human editors who obsess over points so you do
 
 ---
 
-*Disclaimer: We may receive compensation when you click on links to credit cards and other products. Opinions expressed here are our own.*
+*Some links may earn RewardsBrief a commission. The math stays the math.*

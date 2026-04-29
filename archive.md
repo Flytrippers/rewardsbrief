@@ -3,19 +3,22 @@ layout: default
 title: Archive
 ---
 
-# All Briefings
+<div class="page-hero">
+  <h1>All briefings</h1>
+  <p class="subtitle">Every briefing we've published. Searchable, scannable, always here.</p>
+</div>
 
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <h2 id="year-{{ currentdate }}">{{ currentdate }}</h2>
-    <ul>
+    <h2 class="archive-year">{{ currentdate }}</h2>
+    <ul class="archive-list">
     {% assign date = currentdate %}
   {% endif %}
   <li>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <small>— {{ post.date | date: "%B %d" }}</small>
+    <span class="date">{{ post.date | date: "%B %d" }}</span>
   </li>
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}

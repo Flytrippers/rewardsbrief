@@ -11,35 +11,34 @@ Welcome to **RewardsBrief** — your no-fluff guide to traveling more while spen
 
 Every week, we cut through the noise and deliver only what matters: the best credit card offers, points sweet spots, and real strategies that actually work.
 
-## What You'll Learn Here
+## What you'll learn here
 
-- **Credit Card Points** — Which cards earn the most, how to transfer smartly, and when to redeem
-- **Airline Miles** — Sweet spots most people miss, status hacks, and booking tricks
-- **Hotel Rewards** — Free nights, status matches, and how to sleep in luxury for less
-- **Real Travel Hacks** — Not theory. Real bookings, real savings, real trips.
+- **Credit card points** — Which cards earn the most, how to transfer smartly, and when to redeem
+- **Airline miles** — Sweet spots most people miss, status hacks, and booking tricks
+- **Hotel rewards** — Free nights, status matches, and how to sleep in luxury for less
+- **Real travel rewards** — Not theory. Real bookings, real savings, real trips
 
-For example, we'll show you how a card with a <span class="price-convert" data-usd="95">$95</span> annual fee can unlock thousands in travel value.
+## Who this is for
 
-## Who This Is For
-
-- You want to travel more but think it's too expensive
-- You have points but don't know how to use them
+- You want to travel more but think it is too expensive
+- You have points but do not know how to use them
 - You want to understand credit card rewards without the fluff
 - You like deals, hacks, and getting maximum value
 
-## What Makes Us Different
+## What makes us different
 
-We don't do filler. Every briefing is:
+We do not do filler. Every briefing is:
 
 - **Actionable** — Specific steps you can take today
 - **Honest** — We call out bad deals, not just hype good ones
 - **Fast** — Short, scannable, no 5,000-word essays
 
-## Get Started
+## Get started
 
-1. [Subscribe to our newsletter](#) for weekly briefings
-2. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_)
-3. Bookmark this page — we publish new briefings every week
+1. [Read Travel Rewards 101](/travel-rewards-101) — The complete beginner's guide
+2. [Subscribe to our newsletter](#) for weekly briefings
+3. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_)
+4. Bookmark this page — we publish new briefings every week
 
 Let's get you flying better.
 
