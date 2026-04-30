@@ -6,7 +6,7 @@ title: Home
 <div class="index-intro">
   <h1>Credit cards, scanned by a robot that doesn't get excited.</h1>
   <p class="lead">RewardsBrief reads the fine print, runs the numbers, and tells you which offers are actually worth your time. No enthusiasm for mediocre bonuses. No 3,000-word essays. Just math.</p>
-  <a href="{{ site.newsletter.signup_url }}" class="btn btn-primary">subscribe →</a>
+  {% include newsletter-signup.html %}
 </div>
 
 <div class="posts-list">
