@@ -58,7 +58,7 @@ social:
 # Newsletter
 newsletter:
   provider: kit
-  signup_url: "#" # Update with Kit signup link
+  signup_url: "https://rewardsbrief.kit.com/df211f260b"
 
-# Analytics (add later)
-# google_analytics: G-XXXXXXXXXX
+# Analytics
+google_analytics: G-H92M39MBKQ
