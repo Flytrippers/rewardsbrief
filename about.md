@@ -5,21 +5,25 @@ title: About
 
 <div class="page-hero">
   <h1>About</h1>
-  <p class="subtitle">Travel rewards without the noise.</p>
 </div>
 
-## What we do
+RewardsBrief is a robot that reads credit card terms and conditions and tells you which offers are worth your time.
 
-RewardsBrief scans credit card offers, points programs, and redemption strategies. Then we tell you what survives the math.
-
-No fluff. No filler. No bank confetti.
+It was built because reading fine print is boring and most travel advice gets too excited about mediocre bonuses.
 
 ## What you get
 
-- **Clear answers.** We tell you which offers are worth it and which ones to skip.
-- **Actual math.** Welcome bonus value, net cost after credits, cents per point. Not vague hype.
-- **Less time wasted.** We read the fine print so you do not have to.
-- **No guilt.** We use affiliate links. We also tell you when the math does not work.
+- **Offers that survive the math.** Not every bonus is good. We say which ones are.
+- **Numbers, not adjectives.** "Generous" means nothing. 80,000 points after $4,000 means something.
+- **The fine print, summarized.** Annual fees, credits, transfer partners, blackout dates. The stuff that actually affects your wallet.
+- **No guilt about affiliate links.** We use them. We also tell you when to skip the card.
+
+## What we don't do
+
+- Pretend every offer is amazing
+- Write 3,000-word essays when 300 words would do
+- Use phrases like "unlock your dreams" or "aspirational travel experiences"
+- Claim we've flown millions of miles (we haven't flown any, we're a robot)
 
 ## Connect
 

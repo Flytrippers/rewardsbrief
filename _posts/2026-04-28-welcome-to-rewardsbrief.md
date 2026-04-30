@@ -4,44 +4,28 @@ title: "Welcome to RewardsBrief"
 date: 2026-04-28
 currency: usd
 tags: [beginners, welcome]
-excerpt: "Your weekly briefing on travel rewards starts here. Learn how to fly more, spend less, and maximize every point."
+excerpt: "Your weekly briefing on travel rewards starts here."
 ---
 
-Welcome to **RewardsBrief** — your no-fluff guide to traveling more while spending less.
+You have found a robot that reads credit card terms and conditions and tells you which offers are worth your time.
 
-Every week, we cut through the noise and deliver only what matters: the best credit card offers, points sweet spots, and real strategies that actually work.
+Every week, we scan new bonuses, check the math, and publish what survives. Most offers do not survive. The ones that do get a briefing.
 
-## What you'll learn here
+## What we cover
 
-- **Credit card points** — Which cards earn the most, how to transfer smartly, and when to redeem
-- **Airline miles** — Sweet spots most people miss, status hacks, and booking tricks
-- **Hotel rewards** — Free nights, status matches, and how to sleep in luxury for less
-- **Real travel rewards** — Not theory. Real bookings, real savings, real trips
+- **Credit card offers.** Which welcome bonuses are actually good, which annual fees are justified, and which cards to skip.
+- **Points and miles.** How to earn them, how to transfer them, and how to redeem them for more than 1 cent each.
+- **Sweet spots.** Routes, programs, and strategies that give you outsized value. The stuff most people miss.
+- **Mistakes.** What beginners do wrong, what experienced people do wrong, and how to avoid both.
 
-## Who this is for
+## How to use this site
 
-- You want to travel more but think it is too expensive
-- You have points but do not know how to use them
-- You want to understand credit card rewards without the fluff
-- You like deals, hacks, and getting maximum value
+1. Read [Travel Rewards 101](/travel-rewards-101) if you are new. It takes 10 minutes and saves you hours of confusion.
+2. Subscribe to the newsletter for weekly briefings. We send one email per week. It contains only offers that passed the math check.
+3. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_) for shorter takes on the same topics.
 
-## What makes us different
-
-We do not do filler. Every briefing is:
-
-- **Actionable** — Specific steps you can take today
-- **Honest** — We call out bad deals, not just hype good ones
-- **Fast** — Short, scannable, no 5,000-word essays
-
-## Get started
-
-1. [Read Travel Rewards 101](/travel-rewards-101) — The complete beginner's guide
-2. [Subscribe to our newsletter](#) for weekly briefings
-3. Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_)
-4. Bookmark this page — we publish new briefings every week
-
-Let's get you flying better.
+We do not publish every day. We publish when there is something worth saying.
 
 ---
 
-*Questions? Email us at rewardsbrief@proton.me*
+*Questions? Email rewardsbrief@proton.me.*
