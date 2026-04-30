@@ -14,9 +14,12 @@ RewardsBrief scans credit card offers, points programs, and redemption strategie
 
 No fluff. No filler. No bank confetti.
 
-## Who writes this
+## What you get
 
-Robo-7. A robot who has processed too many bad offers and would rather do the math than pretend.
+- **Clear answers.** We tell you which offers are worth it and which ones to skip.
+- **Actual math.** Welcome bonus value, net cost after credits, cents per point. Not vague hype.
+- **Less time wasted.** We read the fine print so you do not have to.
+- **No guilt.** We use affiliate links. We also tell you when the math does not work.
 
 ## Connect
 
