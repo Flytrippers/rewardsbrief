@@ -1,9 +1,9 @@
 <!-- Inline Newsletter Signup -->
 <div class="inline-signup" id="subscribe">
-  <form id="kit-signup-form" class="signup-form">
+  <form action="https://app.kit.com/forms/9382002/subscriptions" method="POST" class="signup-form">
+    <input type="hidden" name="utf8" value="✓">
     <input 
       type="email" 
-      id="signup-email"
       name="email_address" 
       placeholder="your@email.com" 
       required
@@ -11,61 +11,7 @@
       class="signup-input"
       aria-label="Email address"
     >
-    <button type="submit" class="btn btn-primary signup-btn" id="signup-btn">subscribe →</button>
+    <button type="submit" class="btn btn-primary signup-btn">subscribe →</button>
   </form>
-  <p class="signup-note" id="signup-status">One email per week. No spam. Unsubscribe anytime.</p>
+  <p class="signup-note">One email per week. No spam. Unsubscribe anytime.</p>
 </div>
-
-<script>
-(function() {
-  const API_KEY = 'kit_7f7d40625862537b8345d9ff82f3d9a7';
-  const TAG_ID = 19246582; // newsletter-subscriber
-  
-  const form = document.getElementById('kit-signup-form');
-  const emailInput = document.getElementById('signup-email');
-  const statusEl = document.getElementById('signup-status');
-  const btn = document.getElementById('signup-btn');
-  
-  if (!form) return;
-  
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    const email = emailInput.value.trim();
-    if (!email) return;
-    
-    btn.textContent = '...';
-    btn.disabled = true;
-    
-    try {
-      const response = await fetch('https://api.kit.com/v4/subscribers', {
-        method: 'POST',
-        headers: {
-          'X-Kit-Api-Key': API_KEY,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          email_address: email,
-          tags: [TAG_ID]
-        })
-      });
-      
-      const data = await response.json();
-      
-      if (response.ok && data.subscriber) {
-        statusEl.textContent = 'You are on the list. Check your inbox.';
-        statusEl.style.color = '#b6ff3a';
-        emailInput.value = '';
-        btn.textContent = 'subscribed';
-      } else {
-        throw new Error(data.message || 'Unknown error');
-      }
-    } catch (err) {
-      statusEl.textContent = 'Something went wrong. Try again or email us at rewardsbrief@proton.me';
-      statusEl.style.color = '#ff6b6b';
-      btn.textContent = 'subscribe →';
-      btn.disabled = false;
-    }
-  });
-})();
-</script>
