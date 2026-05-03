@@ -1,17 +1,68 @@
 <!-- Inline Newsletter Signup -->
 <div class="inline-signup" id="subscribe">
-  <form action="https://app.kit.com/forms/9382002/subscriptions" method="POST" class="signup-form">
-    <input type="hidden" name="utf8" value="✓">
+  <form id="kit-signup-form" class="signup-form">
     <input 
       type="email" 
-      name="email_address" 
+      id="signup-email"
+      name="email" 
       placeholder="your@email.com" 
       required
       autocomplete="off"
       class="signup-input"
       aria-label="Email address"
     >
-    <button type="submit" class="btn btn-primary signup-btn">subscribe →</button>
+    <button type="submit" class="btn btn-primary signup-btn" id="signup-btn">subscribe →</button>
   </form>
-  <p class="signup-note">One email per week. No spam. Unsubscribe anytime.</p>
+  <p class="signup-note" id="signup-status">One email per week. No spam. Unsubscribe anytime.</p>
 </div>
+
+<script>
+(function() {
+  const form = document.getElementById('kit-signup-form');
+  const emailInput = document.getElementById('signup-email');
+  const statusEl = document.getElementById('signup-status');
+  const btn = document.getElementById('signup-btn');
+  
+  if (!form) return;
+  
+  // Detect if we're on the live site or local
+  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const apiUrl = isLocal 
+    ? 'http://localhost:3000/subscribe'
+    : 'https://api.rewardsbrief.com/subscribe'; // Update this when you configure the domain
+  
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const email = emailInput.value.trim();
+    if (!email) return;
+    
+    btn.textContent = '...';
+    btn.disabled = true;
+    
+    try {
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email })
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        statusEl.textContent = data.message;
+        statusEl.style.color = '#b6ff3a';
+        emailInput.value = '';
+        btn.textContent = 'subscribed';
+      } else {
+        throw new Error(data.error || 'Subscription failed');
+      }
+    } catch (err) {
+      statusEl.textContent = err.message || 'Something went wrong. Try again.';
+      statusEl.style.color = '#ff6b6b';
+      btn.textContent = 'subscribe →';
+      btn.disabled = false;
+    }
+  });
+})();
+</script>
