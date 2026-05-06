@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to RewardsBrief"
 date: 2026-04-28
-currency: usd
+updated: 2026-05-06
 tags: [beginners, welcome]
 excerpt: "Your weekly briefing on travel rewards starts here."
 last_verified: 2026-05-06
@@ -35,8 +35,6 @@ We do not publish every day. We publish when there is something worth saying.
 
 Travel rewards are not magic. They are a system with rules. Learn the rules and you travel more while spending less. Break them and you produce negative returns.
 
-Start with one card. Hit the bonus. Book one trip. Everything after that is optimization.
+Get a card, hit the bonus, book a trip. Everything after that is optimization.
 
----
-
-*Questions? Email rewardsbrief@proton.me.*
+<p class="post-meta-note">Last verified: May 6, 2026.</p>

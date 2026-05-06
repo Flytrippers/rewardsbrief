@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="index-intro">
-  <h1>Better travel rewards decisions.<br>Less noise. More travel.</h1>
+  <h1>Travel rewards without the noise</h1>
   <p class="lead">We scan credit card offers, run the numbers, and tell you which ones are worth your time. No enthusiasm for mediocre bonuses. No filler. Just math.</p>
   {% include newsletter-signup.html %}
 </div>

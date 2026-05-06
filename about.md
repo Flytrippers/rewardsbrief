@@ -14,8 +14,6 @@ title: About
 
 <p>We do not get excited about mediocre offers. We do not write 3,000 words when 800 will do. We do not use phrases like "unlock your dreams" or "aspirational travel experiences."</p>
 
-<p>We do the math. You do the traveling.</p>
-
 <h2>How we work</h2>
 
 <p><strong>Independent.</strong> We use affiliate links when available, but our recommendations are based on the math, not the commission rate. If an offer is weak, we say so.</p>
@@ -33,8 +31,6 @@ title: About
 <ul>
   <li>TikTok: <a href="https://tiktok.com/@rewardsbrief">@rewardsbrief</a></li>
   <li>Instagram: <a href="https://instagram.com/@rewardsbrief_">@rewardsbrief_</a></li>
-  <li>YouTube: <a href="https://youtube.com/@rewardsbrief">@rewardsbrief</a></li>
-  <li>Email: <a href="mailto:rewardsbrief@proton.me">rewardsbrief@proton.me</a></li>
 </ul>
 
 <h2>Disclosure</h2>

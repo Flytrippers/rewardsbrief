@@ -59,13 +59,13 @@ The label does not matter. What matters is whether the currency is fixed-value o
 
 **Fixed-value** points are worth a set amount. One point equals one cent. Ten thousand points equals one hundred dollars. Predictable, simple, and capped at 1 cent per point.
 
-**Variable-value** points are worth whatever you can get for them. Ten thousand Aeroplan points might book a <span class="price-convert" data-usd="150">$150</span> short flight or an <span class="price-convert" data-usd="800">$800</span> business class seat to Europe. Same points, different outcome.
+**Variable-value** points are worth whatever you can get for them. Ten thousand Aeroplan points might book a $150 short flight or an $800 business class seat to Europe. Same points, different outcome.
 
 The catch is effort. You have to search for award availability, compare cash prices, and learn which transfer partners offer the best rates. More work. More return.
 
 <div class="verdict-box">
 <div class="verdict-label">Example</div>
-<p class="verdict-body">A business class ticket to Europe costs <span class="price-convert" data-usd="4000">$4,000</span> in cash. It costs 90,000 points through a transfer partner. Your redemption value is 4.4 cents per point. A fixed-value program would give you 1 cent. The difference on one ticket is <span class="price-convert" data-usd="3000">$3,000</span>.</p>
+<p class="verdict-body">A business class ticket to Europe costs $4,000 in cash. It costs 90,000 points through a transfer partner. Your redemption value is 4.4 cents per point. A fixed-value program would give you 1 cent. The difference on one ticket is $3,000.</p>
 </div>
 
 That is why people bother with the complexity.
@@ -74,7 +74,7 @@ That is why people bother with the complexity.
 
 Beginners spend hours comparing which card earns 2x versus 3x on groceries. This is a waste of time.
 
-A 2x card gives you 1% more than a 1x card. On <span class="price-convert" data-usd="10000">$10,000</span> of annual grocery spend, that is <span class="price-convert" data-usd="100">$100</span> extra per year. A typical welcome bonus is worth <span class="price-convert" data-usd="1000">$1,000</span> or more. You would need a decade of grocery optimization to match one welcome bonus.
+A 2x card gives you 1% more than a 1x card. On $10,000 of annual grocery spend, that is $100 extra per year. A typical welcome bonus is worth $1,000 or more. You would need a decade of grocery optimization to match one welcome bonus.
 
 The actual strategy is simple:
 
@@ -92,27 +92,27 @@ Everyday earning matters. It matters after the bonus.
 
 These are not guidelines. These are rules.
 
-**Pay in full, every month.** Interest destroys the value. A 20% APR on <span class="price-convert" data-usd="4000">$4,000</span> costs <span class="price-convert" data-usd="800">$800</span> per year. Your <span class="price-convert" data-usd="1200">$1,200</span> bonus becomes a <span class="price-convert" data-usd="400">$400</span> net. Do not carry a balance. Ever.
+**Pay in full, every month.** Interest destroys the value. A 20% APR on $4,000 costs $800 per year. Your $1,200 bonus becomes a $400 net. Do not carry a balance. Ever.
 
-**Hit the spending requirement.** The bonus has a deadline. <span class="price-convert" data-usd="4000">$4,000</span> in 3 months means <span class="price-convert" data-usd="4000">$4,000</span>. Not <span class="price-convert" data-usd="3900">$3,900</span>. Not "close enough." Time your application around large known expenses.
+**Hit the spending requirement.** The bonus has a deadline. $4,000 in 3 months means $4,000. Not $3,900. Not "close enough." Time your application around large known expenses.
 
 **Plan before you earn.** "Fly to Tokyo in business class next March" is a plan. "Collect points" is a hobby. A plan tells you which points to earn, which cards to open, and which partners to learn.
 
 **Prefer transferable points.** Chase transfers to 14 partners. Amex to 20+. If one program devalues tomorrow, move your points elsewhere. Locked points have no exit strategy.
 
-**Redeem for travel, not merchandise.** Gift cards give 1 cent per point or less. Merchandise gives even less. Travel through transfer partners routinely gives 1.5 to 5 cents. One hundred thousand points equals <span class="price-convert" data-usd="1000">$1,000</span> in gift cards or <span class="price-convert" data-usd="5000">$5,000</span> in flights.
+**Redeem for travel, not merchandise.** Gift cards give 1 cent per point or less. Merchandise gives even less. Travel through transfer partners routinely gives 1.5 to 5 cents. One hundred thousand points equals $1,000 in gift cards or $5,000 in flights.
 
 ## A real example with real numbers
 
 You want to fly from New York to Paris.
 
-Cash prices: Economy <span class="price-convert" data-usd="800">$800</span> to <span class="price-convert" data-usd="1200">$1,200</span>. Business <span class="price-convert" data-usd="3000">$3,000</span> to <span class="price-convert" data-usd="6000">$6,000</span>.
+Cash prices: Economy $800 to $1,200. Business $3,000 to $6,000.
 
-You open a card with an 80,000-point bonus after <span class="price-convert" data-usd="4000">$4,000</span> in spending. You put normal expenses on it for 3 months. Groceries, gas, utilities. You hit <span class="price-convert" data-usd="4000">$4,000</span>. The points post.
+You open a card with an 80,000-point bonus after $4,000 in spending. You put normal expenses on it for 3 months. Groceries, gas, utilities. You hit $4,000. The points post.
 
-**Option A:** Transfer 60,000 points to Aeroplan. Economy ticket. Taxes: <span class="price-convert" data-usd="150">$150</span>. Annual fee: <span class="price-convert" data-usd="95">$95</span>. Total out of pocket: <span class="price-convert" data-usd="245">$245</span>. You saved <span class="price-convert" data-usd="555">$555</span> to <span class="price-convert" data-usd="955">$955</span> vs. paying cash.
+**Option A:** Transfer 60,000 points to Aeroplan. Economy ticket. Taxes: $150. Annual fee: $95. Total out of pocket: $245. You saved $555 to $955 vs. paying cash.
 
-**Option B:** Transfer 90,000 points. Business class. Same taxes and fee. Total out of pocket: <span class="price-convert" data-usd="245">$245</span>. You saved <span class="price-convert" data-usd="2755">$2,755</span> to <span class="price-convert" data-usd="5755">$5,755</span>.
+**Option B:** Transfer 90,000 points. Business class. Same taxes and fee. Total out of pocket: $245. You saved $2,755 to $5,755.
 
 The difference between A and B is which seat you pick at checkout. The points cover either.
 
@@ -124,9 +124,9 @@ The difference between A and B is which seat you pick at checkout. The points co
 
 **Closing immediately after the bonus.** Issuers monitor this behavior. Some claw back the bonus or blacklist you from future offers. Keep the card at least 1 year. Downgrade to a no-fee version if the annual fee is not justified.
 
-**Ignoring the annual fee.** A <span class="price-convert" data-usd="95">$95</span> fee with <span class="price-convert" data-usd="300">$300</span> in usable credits and a <span class="price-convert" data-usd="1200">$1,200</span> bonus is a net win. A <span class="price-convert" data-usd="550">$550</span> fee on a card whose benefits you never touch is a net loss. Do the full math, not just the fun part.
+**Ignoring the annual fee.** A $95 fee with $300 in usable credits and a $1,200 bonus is a net win. A $550 fee on a card whose benefits you never touch is a net loss. Do the full math, not just the fun part.
 
-**Not tracking your balances.** Programs devalue. Points expire. A spreadsheet takes 5 minutes to create. Losing 100,000 points to expiration takes zero minutes but costs <span class="price-convert" data-usd="1500">$1,500</span> in lost value.
+**Not tracking your balances.** Programs devalue. Points expire. A spreadsheet takes 5 minutes to create. Losing 100,000 points to expiration takes zero minutes but costs $1,500 in lost value.
 
 ## What to do next
 
@@ -146,6 +146,6 @@ The difference between A and B is which seat you pick at checkout. The points co
 
 Travel rewards are a system with rules. Learn them and you travel more while spending less. Break them by carrying a balance or redeeming for gift cards and you produce negative returns.
 
-One card. One bonus. One trip. Everything else is optimization.
+Start with one card, hit the bonus, and book your first trip. Everything after that is optimization.
 
-<p class="post-meta-note">Last verified: May 6, 2026. Have a question or spotted an error? Email <a href="mailto:rewardsbrief@proton.me">rewardsbrief@proton.me</a>.</p>
+<p class="post-meta-note">Last verified: May 6, 2026. Have a question or spotted an error? We read every message.</p>
