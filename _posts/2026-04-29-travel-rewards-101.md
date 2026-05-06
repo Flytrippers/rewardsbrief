@@ -1,131 +1,151 @@
 ---
 layout: post
-title: "Travel Rewards 101: What You Actually Need to Know"
-date: 2026-04-29
-tags: [beginner, guide, travel-rewards]
-excerpt: "The fastest way to understand travel rewards without reading 47 blog posts or pretending you enjoy spreadsheets."
+title: "Travel Rewards 101"
+date: 2026-05-06
+updated: 2026-05-06
+tags: [beginner, guide]
+excerpt: "How travel rewards work, why banks give away thousands of dollars, and how to collect the value without losing money."
+last_verified: 2026-05-06
+reading_time: 12
 ---
 
-You are probably paying for travel you could get for free. Not free like "sign up for 12 things and hope." Free like "use the right credit card for 3 months, then book a flight with points instead of cash."
+Credit card companies will pay you thousands of dollars to use their cards. Not because they are generous. Because they know most people will slip up, carry a balance, and pay 20% APR.
 
-That is the whole game. Everything else is details.
+If you do not slip up, you keep the money. That is the entire game.
 
-This guide covers the details.
+This guide explains how the system works, where the value lives, and how to collect it without getting played.
 
----
+## How banks pay you to spend money
 
-## The one thing to understand
+Banks buy points from airline and hotel programs at wholesale rates. They hand those points to new cardholders as incentives. The hook is the interest rate.
 
-Credit card companies will pay you thousands of dollars to use their card. They do this through something called a welcome bonus. Spend $4,000 in 3 months, get 80,000 points. Those points can become a flight to Europe, a week in a hotel, or a few hundred dollars in statement credits.
+The math is simple:
 
-The catch: you need to know which cards are worth it, how to earn the bonus without buying things you do not need, and how to turn points into actual travel instead of gift cards nobody wants.
+<div class="math-module">
+<div class="math-module-title">The welcome bonus equation</div>
+<div class="math-row">
+<span class="math-label">Typical welcome bonus value</span>
+<span class="math-value lime">$1,000 – $1,500</span>
+</div>
+<div class="math-row">
+<span class="math-label">Typical spending requirement</span>
+<span class="math-value">$3,000 – $5,000 in 3 months</span>
+</div>
+<div class="math-row">
+<span class="math-label">Cost if you pay in full</span>
+<span class="math-value lime">$0</span>
+</div>
+<div class="math-row">
+<span class="math-label">Cost if you carry a balance at 20% APR</span>
+<span class="math-value">$600 – $1,000 per year</span>
+</div>
+</div>
 
-That is what this guide is for.
+Pay your balance in full every month. No exceptions. If you cannot do this, do not get a travel rewards card. Fix your cash flow first. Come back when you can pay the bill.
 
----
+## Points, miles, and why the labels do not matter
 
-## Points, miles, and why the words do not matter
+Banks call their currency **points**. Airlines call theirs **miles**. Both are made-up currencies with exchange rates that change depending on how you use them.
 
-Credit card companies use words like "points" and "miles" to make this sound complicated. It is not.
+**Bank points** (Chase Ultimate Rewards, Amex Membership Rewards, Citi ThankYou) are flexible. You can transfer them to airlines and hotels, or redeem them directly for travel. This flexibility is valuable because it gives you options.
 
-**Points** are what bank programs call their currency. Chase has Ultimate Rewards points. Amex has Membership Rewards points. Citi has ThankYou points. These are flexible. You can transfer them to airlines and hotels, or use them directly for travel bookings.
+**Airline miles** (United MileagePlus, Delta SkyMiles, Aeroplan) lock you to one carrier or alliance. Less flexible, but sometimes better value for specific routes.
 
-**Miles** are what airlines call their currency. United has MileagePlus miles. Delta has SkyMiles. Aeroplan has Aeroplan points (which they confusingly call points even though they act like miles). These are less flexible. You can usually only use them on that airline or its partners.
+**Cash back** is the third option. Simpler, lower ceiling, no learning curve. The right choice for people who do not want to think about transfer partners.
 
-**Cash back** is the simplest option. You spend money, you get dollars back. No transfer partners, no sweet spots, no complexity. The upside is lower, but so is the effort.
+The label does not matter. What matters is whether the currency is fixed-value or variable-value.
 
-The important distinction is not points versus miles. It is fixed-value versus variable-value.
+## Fixed vs. variable: the concept that determines everything
 
----
+**Fixed-value** points are worth a set amount. One point equals one cent. Ten thousand points equals one hundred dollars. Predictable, simple, and capped at 1 cent per point.
 
-## Fixed-value vs. variable-value: the only concept that matters
+**Variable-value** points are worth whatever you can get for them. Ten thousand Aeroplan points might book a <span class="price-convert" data-usd="150">$150</span> short flight or an <span class="price-convert" data-usd="800">$800</span> business class seat to Europe. Same points, different outcome.
 
-Fixed-value points are worth a set amount. One point equals one cent. Ten thousand points equals one hundred dollars. This works exactly like cash. You know what you are getting. You also know you will never get more than that.
+The catch is effort. You have to search for award availability, compare cash prices, and learn which transfer partners offer the best rates. More work. More return.
 
-Variable-value points are worth whatever you can get for them. Ten thousand Aeroplan points might book a $150 short flight or a $800 business class seat. The same number of points gets you different amounts of travel depending on where and when you fly.
+<div class="verdict-box">
+<div class="verdict-label">Example</div>
+<p class="verdict-body">A business class ticket to Europe costs <span class="price-convert" data-usd="4000">$4,000</span> in cash. It costs 90,000 points through a transfer partner. Your redemption value is 4.4 cents per point. A fixed-value program would give you 1 cent. The difference on one ticket is <span class="price-convert" data-usd="3000">$3,000</span>.</p>
+</div>
 
-This variability is annoying. You have to search for award availability. You have to compare cash prices. You have to learn which routes offer good value. It is more work.
+That is why people bother with the complexity.
 
-It is also where the outsized value lives.
+## Where the actual money comes from
 
-A business class seat to Europe might cost $4,000 in cash. It might cost 90,000 points through a transfer partner. At that redemption, your points are worth 4.4 cents each. A fixed-value program would give you 1 cent. The difference between good and bad redemption strategy is not small. It is the difference between a free economy ticket and a free business class ticket.
+Beginners spend hours comparing which card earns 2x versus 3x on groceries. This is a waste of time.
 
----
+A 2x card gives you 1% more than a 1x card. On <span class="price-convert" data-usd="10000">$10,000</span> of annual grocery spend, that is <span class="price-convert" data-usd="100">$100</span> extra per year. A typical welcome bonus is worth <span class="price-convert" data-usd="1000">$1,000</span> or more. You would need a decade of grocery optimization to match one welcome bonus.
 
-## Where the value actually comes from
+The actual strategy is simple:
 
-Most beginners obsess over which card earns 2x versus 3x on groceries. This is the wrong thing to obsess over.
+1. Find a card with a strong welcome bonus
+2. Apply and get approved
+3. Hit the spending requirement with normal purchases
+4. Receive the points
+5. Redeem them for travel worth more than cash
+6. Decide whether to keep the card
+7. Repeat with the next card
 
-Welcome bonuses are where the value lives.
+Everyday earning matters. It matters after the bonus.
 
-A card that earns 2x on groceries gives you an extra 1% back compared to a 1x card. If you spend $10,000 a year on groceries, that is $100 extra. A good welcome bonus is worth $1,000 or more. You would need 10 years of grocery optimization to match one welcome bonus.
+## The five rules
 
-The strategy is simple: get the bonus, use the card for a year, decide if you want to keep it, then get another card with another bonus. Rinse and repeat.
+These are not guidelines. These are rules.
 
-Everyday earning matters, but it matters second. Bonus first. Optimization second.
+**Pay in full, every month.** Interest destroys the value. A 20% APR on <span class="price-convert" data-usd="4000">$4,000</span> costs <span class="price-convert" data-usd="800">$800</span> per year. Your <span class="price-convert" data-usd="1200">$1,200</span> bonus becomes a <span class="price-convert" data-usd="400">$400</span> net. Do not carry a balance. Ever.
 
----
+**Hit the spending requirement.** The bonus has a deadline. <span class="price-convert" data-usd="4000">$4,000</span> in 3 months means <span class="price-convert" data-usd="4000">$4,000</span>. Not <span class="price-convert" data-usd="3900">$3,900</span>. Not "close enough." Time your application around large known expenses.
 
-## The rules
+**Plan before you earn.** "Fly to Tokyo in business class next March" is a plan. "Collect points" is a hobby. A plan tells you which points to earn, which cards to open, and which partners to learn.
 
-There are five rules. They are not suggestions.
+**Prefer transferable points.** Chase transfers to 14 partners. Amex to 20+. If one program devalues tomorrow, move your points elsewhere. Locked points have no exit strategy.
 
-**Pay your balance in full, every month.** If you carry a balance, the interest wipes out the rewards. A 20% APR on $4,000 in spending costs you $800 in a year. Your welcome bonus might be worth $1,200, but now your net is $400. You turned a good deal into a mediocre one because you could not pay the bill. Do not do this.
+**Redeem for travel, not merchandise.** Gift cards give 1 cent per point or less. Merchandise gives even less. Travel through transfer partners routinely gives 1.5 to 5 cents. One hundred thousand points equals <span class="price-convert" data-usd="1000">$1,000</span> in gift cards or <span class="price-convert" data-usd="5000">$5,000</span> in flights.
 
-**Hit the minimum spending requirement.** The bonus only pays if you spend the required amount in the required timeframe. If the requirement is $4,000 in 3 months and you spend $3,900, you get nothing. Plan your application around known large expenses. Do not apply for a card right after you have paid all your bills.
+## A real example with real numbers
 
-**Have a plan for the points before you earn them.** "I want points" is not a plan. "I want to fly to Tokyo in business class next spring" is a plan. Knowing your goal tells you which points to earn, which cards to get, and which transfer partners to learn. Without a goal, you are collecting stamps. Stamps do not fly you anywhere.
+You want to fly from New York to Paris.
 
-**Use transferable points when possible.** Chase points transfer to 14 airline and hotel partners. Amex points transfer to 20+. Capital One and Citi have their own partner lists. This flexibility is insurance against any one program devaluing. If Delta SkyMiles becomes worthless tomorrow, your Amex points can go to Air France instead. Locked points do not have this escape hatch.
+Cash prices: Economy <span class="price-convert" data-usd="800">$800</span> to <span class="price-convert" data-usd="1200">$1,200</span>. Business <span class="price-convert" data-usd="3000">$3,000</span> to <span class="price-convert" data-usd="6000">$6,000</span>.
 
-**Redeem for travel, not stuff.** Gift cards give you 1 cent per point or less. Merchandise gives you even less. Travel redemptions, especially through transfer partners, routinely give you 1.5 to 5 cents per point. The same 100,000 points could be $1,000 in gift cards or $5,000 in flights. Choose flights.
+You open a card with an 80,000-point bonus after <span class="price-convert" data-usd="4000">$4,000</span> in spending. You put normal expenses on it for 3 months. Groceries, gas, utilities. You hit <span class="price-convert" data-usd="4000">$4,000</span>. The points post.
 
----
+**Option A:** Transfer 60,000 points to Aeroplan. Economy ticket. Taxes: <span class="price-convert" data-usd="150">$150</span>. Annual fee: <span class="price-convert" data-usd="95">$95</span>. Total out of pocket: <span class="price-convert" data-usd="245">$245</span>. You saved <span class="price-convert" data-usd="555">$555</span> to <span class="price-convert" data-usd="955">$955</span> vs. paying cash.
 
-## A real example
+**Option B:** Transfer 90,000 points. Business class. Same taxes and fee. Total out of pocket: <span class="price-convert" data-usd="245">$245</span>. You saved <span class="price-convert" data-usd="2755">$2,755</span> to <span class="price-convert" data-usd="5755">$5,755</span>.
 
-You want to fly from New York to Paris. Cash prices for round-trip economy are $800 to $1,200. Business class is $3,000 to $6,000.
-
-You apply for a card with an 80,000-point welcome bonus after $4,000 in spending. You put your normal expenses on the card for 3 months. Groceries, gas, utilities. You hit $4,000 without buying anything extra. The points post.
-
-You transfer 60,000 points to Aeroplan and book an economy ticket. You pay $150 in taxes. Total out of pocket: $150 plus a $95 annual fee. Total saved vs. cash: $650 to $1,050.
-
-Or you transfer 90,000 points and book business class. Same $150 in taxes. Same $95 annual fee. Total saved: $2,750 to $5,750.
-
-This is not theoretical. This is how people who understand the system travel. The only difference between them and everyone else paying cash is that they spent 20 minutes learning which card to get.
-
----
+The difference between A and B is which seat you pick at checkout. The points cover either.
 
 ## Mistakes that cost beginners money
 
-**Applying for too many cards too fast.** Each application causes a hard inquiry on your credit report. Too many in a short window makes issuers nervous. Space applications 3 to 6 months apart unless you have a specific reason not to.
+**Applying too fast.** Each application causes a hard credit inquiry. Issuers deny applicants with too many recent inquiries. Space applications 3 to 6 months apart.
 
-**Missing the spending deadline.** The clock starts when you are approved, not when you receive the card. If you are approved on January 15, your 3-month clock is ticking. Do not wait until March to start spending.
+**Missing the deadline.** The clock starts at approval, not when you receive the card. Approved January 15, your 3 months end April 15. Not March. Not "whenever I get around to it."
 
-**Closing cards immediately after getting the bonus.** Issuers notice this. Some will claw back the bonus or blacklist you from future offers. Keep the card at least a year, or ask to downgrade to a no-fee version instead of closing it.
+**Closing immediately after the bonus.** Issuers monitor this behavior. Some claw back the bonus or blacklist you from future offers. Keep the card at least 1 year. Downgrade to a no-fee version if the annual fee is not justified.
 
-**Ignoring annual fees or pretending they do not exist.** A $95 fee on a card that gives you $300 in usable credits and a $1,200 bonus is not a problem. A $550 fee on a card whose benefits you never use is a problem. Do the subtraction, not just the addition.
+**Ignoring the annual fee.** A <span class="price-convert" data-usd="95">$95</span> fee with <span class="price-convert" data-usd="300">$300</span> in usable credits and a <span class="price-convert" data-usd="1200">$1,200</span> bonus is a net win. A <span class="price-convert" data-usd="550">$550</span> fee on a card whose benefits you never touch is a net loss. Do the full math, not just the fun part.
 
-**Not tracking expiration dates.** Some points expire. Some programs devalue without warning. Know what you have and have a plan to use it. A spreadsheet takes 5 minutes to set up and saves you from losing thousands of points.
-
----
+**Not tracking your balances.** Programs devalue. Points expire. A spreadsheet takes 5 minutes to create. Losing 100,000 points to expiration takes zero minutes but costs <span class="price-convert" data-usd="1500">$1,500</span> in lost value.
 
 ## What to do next
 
-**If you have never had a travel rewards card:** Check your credit score. You generally need 670 or higher. Pick one card with a strong welcome bonus that fits your normal spending. Apply. Hit the spending requirement. Then read our guide on transfer partners while you wait for the points to post.
+**New to travel rewards:** Check your credit score. You generally need 670+. Pick one card with a strong welcome bonus that matches your spending. Apply. Hit the requirement. Read our transfer partner guide while you wait.
 
-**If you have points but do not know how to use them:** List every balance you have. Pick one travel goal: a destination, a date range, a class of service. Search for award availability 3 to 6 months out. Compare the cash price to the points price. If the points price is better, book it. If not, pay cash and save the points for something else.
+**Have points, no plan:** List every balance. Pick one destination, date range, and class of service. Search award availability 3 to 6 months out. Compare cash price to points price. Book whichever is cheaper.
 
-**If you want to optimize:** Track your effective return per dollar spent. Learn one airline alliance: Star Alliance, SkyTeam, or oneworld. Monitor limited-time transfer bonuses, which can increase your point value by 25% or more. Consider whether airline or hotel status would actually improve your travel, or if you are just chasing status for its own sake.
+**Optimizing:** Track your effective return per dollar spent. Learn one airline alliance. Monitor limited-time transfer bonuses, which can boost point value 25% or more. Ask whether status benefits actually improve your travel or if you are just collecting status for its own sake.
 
----
+<div class="cta-box">
+<h3>Get the next briefing</h3>
+<p>One email per week. Only the offers that survive the math check.</p>
+{% include newsletter-signup.html %}
+</div>
 
 ## Bottom line
 
-Travel rewards are not magic. They are a system with rules. Learn the rules, follow them, and you will travel more while spending less. Ignore the rules, carry a balance, or redeem for gift cards, and you will wonder why everyone else gets free flights while you get $50 statement credits.
+Travel rewards are a system with rules. Learn them and you travel more while spending less. Break them by carrying a balance or redeeming for gift cards and you produce negative returns.
 
-Start with one card. Hit the bonus. Book one trip. The rest is just learning which transfer partner gives you the best deal for your next destination.
+One card. One bonus. One trip. Everything else is optimization.
 
----
-
-*Questions? Email rewardsbrief@proton.me.*
+<p class="post-meta-note">Last verified: May 6, 2026. Have a question or spotted an error? Email <a href="mailto:rewardsbrief@proton.me">rewardsbrief@proton.me</a>.</p>

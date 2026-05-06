@@ -4,26 +4,26 @@ title: Home
 ---
 
 <div class="index-intro">
-  <h1>Credit cards, scanned by a robot that doesn't get excited.</h1>
-  <p class="lead">RewardsBrief reads the fine print, runs the numbers, and tells you which offers are actually worth your time. No enthusiasm for mediocre bonuses. No 3,000-word essays. Just math.</p>
+  <h1>Better travel rewards decisions.<br>Less noise. More travel.</h1>
+  <p class="lead">We scan credit card offers, run the numbers, and tell you which ones are worth your time. No enthusiasm for mediocre bonuses. No filler. Just math.</p>
   {% include newsletter-signup.html %}
 </div>
 
-<div class="posts-list">
-  <h2 style="font-size: 13px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 24px;">Latest briefings</h2>
+<div class="posts-section">
+  <h2 class="posts-section-title">Latest briefings</h2>
   
   {% for post in site.posts limit:10 %}
     <article class="post-preview">
       <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>
       <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
       <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      <a href="{{ post.url | relative_url }}" class="read-more">read briefing →</a>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read briefing →</a>
     </article>
   {% endfor %}
 </div>
 
 <div style="margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--border);">
-  <h2 style="font-size: 13px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 24px;">Popular topics</h2>
+  <h2 class="posts-section-title">Popular topics</h2>
   <div class="topics-list">
     <span class="tag">credit cards</span>
     <span class="tag">points and miles</span>

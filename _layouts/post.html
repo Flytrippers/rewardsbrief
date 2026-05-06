@@ -4,20 +4,42 @@ layout: default
 
 <article class="post">
   <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <div class="post-meta-full">
+    <div class="post-meta-top">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      <span>• Robo-7</span>
-      {% if page.tags %}{% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
+      {% if page.updated %}
+      <span class="updated-badge">Updated {{ page.updated | date: "%B %d, %Y" }}</span>
+      {% endif %}
+      <span class="author-badge">
+        <span class="robo-avatar" aria-hidden="true">◈</span>
+        Robo-7
+      </span>
+      {% if page.reading_time %}
+      <span class="reading-time">{{ page.reading_time }} min read</span>
+      {% endif %}
     </div>
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.excerpt %}
+    <p class="post-subtitle">{{ page.excerpt | strip_html | truncate: 200 }}</p>
+    {% endif %}
+
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </header>
 
   {% if page.image %}
-  <div class="post-image">
+  <div class="post-hero-image">
     <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
   </div>
   {% endif %}
 
+  {% if page.show_currency_toggle != false %}
   <div class="currency-bar">
     <div class="currency-toggle" id="currency-toggle">
       <span id="currency-flag">🇺🇸</span>
@@ -33,51 +55,50 @@ layout: default
       </div>
     </div>
   </div>
+  {% endif %}
 
-  <!-- Disclosure: shown at top for US -->
+  {% if page.disclosure != false %}
   <div class="disclosure-module disclosure-top" id="disclosure-top">
-    Some links may earn RewardsBrief a commission. The math stays the math.
+    <span class="disclosure-icon">◈</span>
+    <span>Some links may earn RewardsBrief a commission. <a href="/about">We only recommend products that pass the math</a>.</span>
   </div>
+  {% endif %}
 
   <div class="post-content" id="post-content" data-currency="{{ page.currency | default: 'usd' }}">
     {{ content }}
   </div>
 
-  <!-- Disclosure: shown at bottom for CA -->
-  <div class="disclosure-module disclosure-bottom" id="disclosure-bottom" style="display: none;">
-    Some links may earn RewardsBrief a commission. The math stays the math.
-  </div>
-
   <footer class="post-footer">
-    <div class="newsletter-box">
-      <h3>Get more briefings like this</h3>
-      <p>One email per week. Only offers that passed the math check.</p>
-      {% include newsletter-signup.html %}
+    <div class="post-meta-bottom">
+      <div class="verification-badge">
+        <span class="verification-icon">✓</span>
+        <span>Last verified: {{ page.last_verified | default: page.date | date: "%B %d, %Y" }}</span>
+      </div>
+      <div class="share-row">
+        <span>Share:</span>
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
 
-    <div class="post-share">
-      <h4>Share this briefing</h4>
-      <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Twitter</a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">Facebook</a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" target="_blank">LinkedIn</a>
+    <div class="author-box">
+      <div class="author-avatar">
+        <span class="robo-avatar-large" aria-hidden="true">◈</span>
+      </div>
+      <div class="author-info">
+        <p class="author-name">Robo-7</p>
+        <p class="author-bio">Professional travel rewards editor. Robo-7 has processed thousands of offers and only recommends the ones that pass the math.</p>
+      </div>
+    </div>
+
+    <div class="newsletter-box">
+      <h3>Get the next briefing</h3>
+      <p>One email per week. Only the offers that survive the math check.</p>
+      {% include newsletter-signup.html %}
     </div>
   </footer>
 </article>
 
 <script src="{{ '/assets/js/currency.js' | relative_url }}"></script>
-<script>
-  // Disclosure placement based on currency
-  (function() {
-    const currency = localStorage.getItem('rewardsbrief_currency') || 'usd';
-    const topDisc = document.getElementById('disclosure-top');
-    const bottomDisc = document.getElementById('disclosure-bottom');
-    
-    if (currency === 'cad') {
-      if (topDisc) topDisc.style.display = 'none';
-      if (bottomDisc) bottomDisc.style.display = 'block';
-    } else {
-      if (topDisc) topDisc.style.display = 'block';
-      if (bottomDisc) bottomDisc.style.display = 'none';
-    }
-  })();
-</script>
+<script src="{{ '/assets/js/disclosure.js' | relative_url }}"></script>

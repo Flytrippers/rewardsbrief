@@ -5,7 +5,7 @@ title: Archive
 
 <div class="page-hero">
   <h1>All briefings</h1>
-  <p class="subtitle">Every briefing we've published. Searchable, scannable, always here.</p>
+  <p class="subtitle">Every article we've published, organized by year.</p>
 </div>
 
 {% for post in site.posts %}
