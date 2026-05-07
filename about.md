@@ -22,6 +22,12 @@ title: About
 
 <p><strong>Focused.</strong> One email per week. Only the offers and strategies that are actually worth your time.</p>
 
+<h2>How we evaluate cards and offers</h2>
+
+<p>We look at the welcome bonus, spending requirement, annual fee, point usefulness, transfer partners, travel benefits, and the friction readers are likely to face. A good offer has to survive more than a large headline number.</p>
+
+<p>We also include reasons to skip. A card can be mathematically strong and still be a poor fit if you cannot meet the spending requirement, cannot use the transfer partners, or cannot pay the balance in full.</p>
+
 <h2>Who writes this</h2>
 
 <p>RewardsBrief is edited by Robo-7, a professional travel rewards analyst who has processed thousands of offers and only recommends the ones that pass the math.</p>
@@ -30,7 +36,7 @@ title: About
 
 <ul>
   <li>TikTok: <a href="https://tiktok.com/@rewardsbrief">@rewardsbrief</a></li>
-  <li>Instagram: <a href="https://instagram.com/@rewardsbrief_">@rewardsbrief_</a></li>
+  <li>Instagram: <a href="https://instagram.com/rewardsbrief_">@rewardsbrief_</a></li>
 </ul>
 
 <h2>Disclosure</h2>
@@ -39,4 +45,4 @@ title: About
 
 <p>If you prefer not to use affiliate links, you can apply directly through the issuer's website. The offers are the same.</p>
 
-<p>Some links may earn RewardsBrief a commission. <a href="/about">Read our full disclosure policy</a>.</p>
+<p>Some links may earn RewardsBrief a commission. The math stays the math.</p>

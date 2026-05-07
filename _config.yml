@@ -1,5 +1,5 @@
 title: RewardsBrief
-description: "Your weekly briefing on travel rewards, points hacks, and luxury for less."
+description: "Your weekly briefing on credit card offers, points programs, and redemption strategies."
 baseurl: ""
 url: "https://rewardsbrief.com"
 author: RewardsBrief Team
@@ -47,7 +47,6 @@ exclude:
 
 # SEO
 lang: en
-logo: /assets/images/logo.png
 social:
   name: RewardsBrief
   links:

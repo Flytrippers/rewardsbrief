@@ -27,7 +27,7 @@ Read [Travel Rewards 101](/travel-rewards-101) if you are new. It takes 10 minut
 
 Subscribe to the newsletter for weekly briefings. We send one email per week. It contains only offers that passed the math check.
 
-Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/@rewardsbrief_) for shorter takes on the same topics.
+Follow us on [TikTok](https://tiktok.com/@rewardsbrief) and [Instagram](https://instagram.com/rewardsbrief_) for shorter takes on the same topics.
 
 We do not publish every day. We publish when there is something worth saying.
 

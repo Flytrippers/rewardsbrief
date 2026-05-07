@@ -221,6 +221,41 @@ ul li::before {
   margin-top: var(--space-4);
 }
 
+.home-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: var(--space-8);
+  margin: var(--space-10) 0;
+}
+
+.home-panel h2 {
+  margin-top: 0;
+}
+
+.home-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.criteria-grid h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: var(--space-2);
+}
+
+.criteria-grid p {
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
 /* Posts List */
 .posts-section {
   margin-top: var(--space-16);
@@ -884,6 +919,14 @@ ul li::before {
   border-color: var(--lime);
 }
 
+.signup-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
 .signup-btn {
   padding: var(--space-3) var(--space-5);
   white-space: nowrap;
@@ -1092,6 +1135,10 @@ ul li::before {
 
   .signup-form {
     flex-direction: column;
+  }
+
+  .criteria-grid {
+    grid-template-columns: 1fr;
   }
 
   .signup-input {

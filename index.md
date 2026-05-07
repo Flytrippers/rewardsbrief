@@ -9,6 +9,30 @@ title: Home
   {% include newsletter-signup.html %}
 </div>
 
+<section class="home-panel">
+  <h2>How RewardsBrief evaluates offers</h2>
+  <div class="criteria-grid">
+    <div>
+      <h3>Current offer</h3>
+      <p>Welcome bonus, annual fee, spending requirement, eligibility rules, and deadline if there is one.</p>
+    </div>
+    <div>
+      <h3>Realistic value</h3>
+      <p>Estimated point value after fees, using travel redemptions a normal reader can actually book.</p>
+    </div>
+    <div>
+      <h3>Reasons to skip</h3>
+      <p>Every strong recommendation needs a catch. If the math is weak, the answer is wait or skip.</p>
+    </div>
+  </div>
+</section>
+
+<section class="home-panel">
+  <h2>Start here</h2>
+  <p>New to travel rewards, or just cleaning up the basics? Start with the 101 guide, then use the briefings to compare current offers.</p>
+  <a href="{{ '/travel-rewards-101' | relative_url }}" class="read-more">Read Travel Rewards 101 →</a>
+</section>
+
 <div class="posts-section">
   <h2 class="posts-section-title">Latest briefings</h2>
   

@@ -49,7 +49,7 @@ Jekyll-powered site for RewardsBrief — a travel rewards content brand.
 - **Default:** USD for all visitors
 - **Canadians:** Auto-detected via browser locale, shown CAD
 - **Toggle:** Click "🇺🇸 USD" bar to switch currencies
-- **Live rates:** Fetched from Frankfurter API, cached daily
+- **Live rates:** Fetched from the Flytrippers WordPress API, cached daily in the browser
 - **Fallback:** 1.35 if API is unavailable
 
 ## Local Development

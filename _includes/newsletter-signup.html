@@ -1,9 +1,8 @@
 <!-- Inline Newsletter Signup -->
-<div class="inline-signup" id="subscribe">
-  <form id="kit-signup-form" class="signup-form">
+<div class="inline-signup">
+  <form class="signup-form" data-rewardsbrief-signup>
     <input 
       type="email" 
-      id="signup-email"
       name="email" 
       placeholder="your@email.com" 
       required
@@ -11,54 +10,63 @@
       class="signup-input"
       aria-label="Email address"
     >
-    <button type="submit" class="btn btn-primary signup-btn" id="signup-btn">subscribe →</button>
+    <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="signup-honeypot">
+    <button type="submit" class="btn btn-primary signup-btn">subscribe →</button>
   </form>
-  <p class="signup-note" id="signup-status">One email per week with offers that survived the math check. Unsubscribe anytime.</p>
+  <p class="signup-note" data-rewardsbrief-signup-status>One email per week with offers that survived the math check. Unsubscribe anytime.</p>
 </div>
 
 <script>
 (function() {
-  const form = document.getElementById('kit-signup-form');
-  const emailInput = document.getElementById('signup-email');
-  const statusEl = document.getElementById('signup-status');
-  const btn = document.getElementById('signup-btn');
-  
-  if (!form) return;
-  
-  const API_URL = window.API_PROXY_URL || 'http://localhost:3000/subscribe';
-  
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    const email = emailInput.value.trim();
-    if (!email) return;
-    
-    btn.textContent = '...';
-    btn.disabled = true;
-    
-    try {
-      const response = await fetch(API_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email })
-      });
-      
-      const data = await response.json();
-      
-      if (response.ok && data.success) {
-        statusEl.textContent = data.message;
-        statusEl.style.color = '#b6ff3a';
-        emailInput.value = '';
-        btn.textContent = 'subscribed';
-      } else {
-        throw new Error(data.error || 'Subscription failed');
+  const API_URL = window.REWARDSBRIEF_SUBSCRIBE_URL || 'https://flytrippers.com/wp-json/rewardsbrief/v1/subscribe';
+  const forms = document.querySelectorAll('[data-rewardsbrief-signup]');
+
+  forms.forEach(function(form) {
+    if (form.dataset.bound === 'true') return;
+    form.dataset.bound = 'true';
+
+    const emailInput = form.querySelector('input[name="email"]');
+    const honeypotInput = form.querySelector('input[name="website"]');
+    const statusEl = form.parentElement.querySelector('[data-rewardsbrief-signup-status]');
+    const btn = form.querySelector('.signup-btn');
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const email = emailInput.value.trim();
+      if (!email) return;
+
+      btn.textContent = '...';
+      btn.disabled = true;
+
+      try {
+        const response = await fetch(API_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: email,
+            website: honeypotInput ? honeypotInput.value : '',
+            referrer: window.location.href
+          })
+        });
+
+        const data = await response.json();
+
+        if (response.ok && data.success) {
+          statusEl.textContent = data.message;
+          statusEl.style.color = '#b6ff3a';
+          emailInput.value = '';
+          btn.textContent = 'subscribed';
+        } else {
+          throw new Error(data.message || data.error || 'Subscription failed');
+        }
+      } catch (err) {
+        statusEl.textContent = err.message || 'Something went wrong. Try again.';
+        statusEl.style.color = '#ff6b6b';
+        btn.textContent = 'subscribe →';
+        btn.disabled = false;
       }
-    } catch (err) {
-      statusEl.textContent = err.message || 'Something went wrong. Try again.';
-      statusEl.style.color = '#ff6b6b';
-      btn.textContent = 'subscribe →';
-      btn.disabled = false;
-    }
+    });
   });
 })();
 </script>
