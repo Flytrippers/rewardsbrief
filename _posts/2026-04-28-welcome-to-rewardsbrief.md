@@ -23,7 +23,7 @@ RewardsBrief helps you make better travel rewards decisions. Every week, we scan
 
 ## How to use this site
 
-Read [Travel Rewards 101](/travel-rewards-101) if you are new. It takes 10 minutes and saves you hours of confusion.
+Read [Travel Rewards 101]({% post_url 2026-04-29-travel-rewards-101 %}) if you are new. It takes 10 minutes and saves you hours of confusion.
 
 Subscribe to the newsletter for weekly briefings. We send one email per week. It contains only offers that passed the math check.
 
