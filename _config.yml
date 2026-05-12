@@ -20,7 +20,7 @@ plugins:
 collections:
   posts:
     output: true
-    permalink: /:collection/:year/:month/:day/:title/
+    permalink: /:title/
 
 # Defaults
 defaults:
